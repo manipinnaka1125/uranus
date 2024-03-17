@@ -49,6 +49,20 @@ function App() {
            
 </ul>  
 <p className='paa'>In Crypto We Trust, But In Uranus, We Believe!</p>
+<p className='paa1'>The Memeifesto
+<br></br>
+Welcome to the wild side of crypto - where memes aren't just dreams, and astrology isn’t just your daily horoscope.</p>
+<br></br>
+<br>
+</br>
+<div class="card">
+  <img src={img1} alt="Avatar" />
+  <div class="container">
+    <h4><b>Jane Doe</b></h4> 
+    <p>Interior Designer</p> 
+  </div>
+</div>
+
       </div>
     </main>
 
