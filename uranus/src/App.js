@@ -5,7 +5,7 @@ import image from './components/image.png';
 function App() {
   return (
     <div className="App">
-      <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
       <header className="App-header">
         <Header/>
       </header>
@@ -57,10 +57,28 @@ Welcome to the wild side of crypto - where memes aren't just dreams, and astrolo
 </br>
 <div class="card">
   <img src={img1} alt="Avatar" />
+ 
   <div class="container">
     <h4><b>Jane Doe</b></h4> 
     <p>Interior Designer</p> 
+    
+ 
+  
   </div>
+  
+</div>
+<div class="card1">
+  <img src={image} alt="Avatar" />
+  
+ 
+  <div class="container1">
+    <h4><b>Jane Doe</b></h4> 
+    <p>Interior Designer</p> 
+   
+ 
+  
+  </div>
+  
 </div>
 
       </div>

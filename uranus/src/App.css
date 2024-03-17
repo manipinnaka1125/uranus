@@ -101,16 +101,16 @@ html, body, #root, .App {
   padding-left: 310px;
 }
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 4px 0 rgb(255, 0, 0);
   transition: 0.3s;
-  width: 200px;
+  width: 300px;
   height: auto;
- padding-left: 100px;
-  border-radius: 5px;
+ padding: 25px;
+  border-radius: 30px;
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgb(0, 157, 255);
 }
 
 img {
@@ -118,10 +118,38 @@ img {
 }
 
 .container {
-  padding: 2px 16px;
+  padding: 4px 16px;
 }
 .card img {
   width: 100%; /* Ensure the image fills the container */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 5px 5px 0 0; /* Apply border radius to the top corners */
+  height: 100%; /* Maintain aspect ratio */
+  border-radius: 10px 5px 0 0; /* Apply border radius to the top corners */
+}
+.card1 {
+  box-shadow: 10px 10px 10px 10px rgb(255, 0, 0);
+  transition: 0.3s;
+  width: 300px;
+  height: 300px;
+ padding-left: 320px;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden; 
+}
+
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgb(0, 157, 255,0.5);
+}
+
+image {
+  border-radius: 5px 5px 0 0;
+}
+
+.container1 {
+  padding: 4px 16px;
+  
+}
+.card1 image {
+  width: 100%; /* Ensure the image fills the container */
+  height: 100%; /* Maintain aspect ratio */
+  border-radius: 10px 10px 10px 10px; /* Apply border radius to the top corners */
 }
