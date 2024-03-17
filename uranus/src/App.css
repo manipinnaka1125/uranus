@@ -7,6 +7,7 @@
   height: 16px;
 margin: 15px;
 display: inline-block;
+
 }
 .main{
   display: inline-block;
@@ -14,4 +15,84 @@ display: inline-block;
   vertical-align: middle;
   margin-top: -23px;
   color: aliceblue;
+}
+/* Existing styles */
+
+/* Existing styles */
+
+.button-container {
+  position: absolute;
+  top: -10px; /* Adjust top position as needed */
+  right: 10px; /* Adjust right position as needed */
+  
+  
+}
+
+
+/* Existing styles */
+
+.glowing-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #b8e4ff;
+  cursor: pointer;
+  padding: 0.3em 0.8em;
+  border: 0.15em solid #680adb;
+  border-radius: 0.3em;
+  background: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.7em;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  outline: none;
+  display: flex; /* Added */
+  align-items: center; /* Added */
+}
+.logo1 {
+  width: 100%; /* Set width to 80% of the container */
+  max-width: none; /* Set maximum width */
+  height: 30vh; /* Set height to 30% of the viewport height */
+  object-fit: cover; /* Scale the image to cover the entire container */
+  object-position: center; /* Center the image horizontally and vertically */
+}
+.logo2{
+  height: 78px;
+  width: 78px;
+  margin-top: -40px;
+  padding-left: 320px;
+}
+
+.App-body{
+  background-color:rgb(42, 42, 42) ;
+  height: 100%;
+  width: 100%;
+}
+html, body, #root, .App {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.headingtag{
+  padding-left: 320px;
+  margin-top: -7px;
+  font-size: 48px;
+  color: aliceblue;
+}
+.paragraph{
+  padding-left:320px ;
+  font-size: 16px;
+  color: aliceblue;
+}
+.pre-cont{
+  background-color: rgb(42, 42, 42);
+}
+.ulco{
+  color: aliceblue;
+  padding-left: 360px;
+}
+.paa{
+  color: aliceblue;
+  padding-left: 310px;
 }
