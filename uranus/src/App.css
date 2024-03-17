@@ -1,0 +1,17 @@
+.App-header{
+  background-color: rgb(42, 42, 42);
+  height: 45px;
+}
+.logo{
+  width: 16px;
+  height: 16px;
+margin: 15px;
+display: inline-block;
+}
+.main{
+  display: inline-block;
+  margin-left:-5px;
+  vertical-align: middle;
+  margin-top: -23px;
+  color: aliceblue;
+}
