@@ -185,21 +185,10 @@ image {
   }
   .glowing-btn {
    
-    top: 8px;
-    right: -1000px;
-    color: #b8e4ff;
-    cursor: pointer;
-    padding: 0.3em 0.8em;
-    border: 0.15em solid #680adb;
-    border-radius: 0.3em;
-    background: none;
-    font-family: "Raleway", sans-serif;
-    font-size: 0.7em;
-    font-weight: 900;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    outline: none;
-    display: flex; /* Added */
-    align-items: center; /* Added */
+    top: 20px;
+    right: -1800px;
+    
+    
+    
   }
 }
