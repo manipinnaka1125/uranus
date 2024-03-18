@@ -2,6 +2,23 @@
   background-color: rgb(42, 42, 42);
   height: 45px;
 }
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add styles for the cards */
+.card {
+  width: 200px; /* Adjust width as needed */
+  margin: 10px; /* Adjust margin as needed */
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
 .logo{
   width: 16px;
   height: 16px;
@@ -101,16 +118,17 @@ html, body, #root, .App {
   padding-left: 310px;
 }
 .card {
-  box-shadow: 0 4px 4px 0 rgb(255, 0, 0);
+  box-shadow: 5px 5px 5px 5px rgb(255, 102, 0);
   transition: 0.3s;
   width: 300px;
   height: auto;
  padding: 25px;
+ 
   border-radius: 30px;
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgb(0, 157, 255);
+  box-shadow: 0 8px 16px 0 rgb(255, 0, 217);
 }
 
 img {
@@ -160,19 +178,28 @@ image {
   padding: 20px;
   text-align: center;
 }
-/* App.css */
-/* Styles for smaller devices, such as mobiles */
-@media only screen and (max-width: 600px) {
-  /* Adjust styles for smaller screens */
-  .headingtag {
-    font-size: 20px;
-  }
-}
 
-/* Styles for medium devices, such as tablets */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-  /* Adjust styles for medium screens */
-  .headingtag {
-    font-size: 22px;
+@media(max-width:600px){
+  .App-header{
+    width: 1000%;
+  }
+  .glowing-btn {
+   
+    top: 8px;
+    right: -1000px;
+    color: #b8e4ff;
+    cursor: pointer;
+    padding: 0.3em 0.8em;
+    border: 0.15em solid #680adb;
+    border-radius: 0.3em;
+    background: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 0.7em;
+    font-weight: 900;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    outline: none;
+    display: flex; /* Added */
+    align-items: center; /* Added */
   }
 }
