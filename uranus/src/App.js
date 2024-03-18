@@ -2,10 +2,11 @@ import './App.css';
 import Header from './components/Header';
 import img1 from './components/img1.jpg';
 import image from './components/image.png';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      
       <header className="App-header">
         <Header/>
       </header>
@@ -62,7 +63,12 @@ Welcome to the wild side of crypto - where memes aren't just dreams, and astrolo
     <h4><b>Jane Doe</b></h4> 
     <p>Interior Designer</p> 
     
- 
+    
+              <img src={image} alt="Avatar" /> {/* Use img2 */}
+                            <h4><b>John Doe</b></h4> 
+                <p>Developer</p> 
+              
+            
   
   </div>
   
@@ -83,11 +89,12 @@ Welcome to the wild side of crypto - where memes aren't just dreams, and astrolo
 
       </div>
     </main>
-
     <footer>
-
-    </footer>
+    <Footer/>
+        </footer>
+    
     </div>
+    
     
   );
 }

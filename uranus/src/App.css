@@ -130,7 +130,8 @@ img {
   transition: 0.3s;
   width: 300px;
   height: 300px;
- padding-left: 320px;
+  padding-right: 320px;
+  padding-left: 320px;
   border-radius: 30px;
   position: relative;
   overflow: hidden; 
@@ -152,4 +153,26 @@ image {
   width: 100%; /* Ensure the image fills the container */
   height: 100%; /* Maintain aspect ratio */
   border-radius: 10px 10px 10px 10px; /* Apply border radius to the top corners */
+}
+.footer {
+  background-color: #870000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+/* App.css */
+/* Styles for smaller devices, such as mobiles */
+@media only screen and (max-width: 600px) {
+  /* Adjust styles for smaller screens */
+  .headingtag {
+    font-size: 20px;
+  }
+}
+
+/* Styles for medium devices, such as tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Adjust styles for medium screens */
+  .headingtag {
+    font-size: 22px;
+  }
 }
