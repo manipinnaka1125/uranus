@@ -10,7 +10,7 @@ function Header() {
   };
 
   return (
-    <div>
+    <div >
       <div>
         <img src={image} alt='logo' className='logo' />
         <p className='main'>$URANUS Web</p>
