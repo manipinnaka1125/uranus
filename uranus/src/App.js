@@ -15,7 +15,7 @@ function App() {
       <main >
         <div className='pre-cont'>
           <img src={img1} alt='logo1' className='logo1'></img>
-          <img src={image} alt='normal' className='logo2' />
+         
           <h1 className='headingtag'>
             $URANUS Web
           </h1>
