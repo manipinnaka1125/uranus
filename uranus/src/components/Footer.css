@@ -1,0 +1,37 @@
+.footer {
+    background: transparent;
+    background-color:rgb(0, 0, 0) ;
+    color: #d000ff; /* Set text color to white */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .menu__item {
+    text-align: center;
+  }
+  
+  .menu__link {
+    text-decoration: none;
+    color: #fff700; /* Set link color to white */
+    font-size: 1.2rem;
+    font-weight: bold; /* Set font weight to bold */
+    transition: 0.3s;
+  }
+  
+  .menu__link:hover {
+    opacity: 0.8;
+  }
+  
+  p {
+    margin-top: 20px;
+    font-size: 1rem;
+    opacity: 0.8;
+  }

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+
 import image from './image.png'; // Correct relative path to the image
 
 function Header() {

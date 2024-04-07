@@ -2,7 +2,11 @@ import './App.css';
 import Header from './components/Header';
 import img1 from './components/img1.jpg';
 import c1 from './components/c1.png';
-import image from './components/image.png';
+import c2 from './components/c2.png';
+
+import c5 from './components/c5.png';
+import c6 from './components/c6.png';
+
 import Footer from './components/Footer';
 
 function App() {
@@ -49,20 +53,52 @@ function App() {
 
             <hr></hr>
             <div className="card">
-              <img src={image} alt="Avatar" />
-              <div className="container">
-                <h4><b>Jane Doe</b></h4> 
-                <p>Interior Designer</p> 
-              </div>
+              <img src={c2} alt="Avatar" />
+              <hr></hr>
+  <div className="container">
+    <a href="path/to/your/file.zip" download="myfile.zip" class="btn"><i class="fa fa-download"></i> Click here to Download</a>
+  </div> 
             </div>
             <hr></hr>
             <div className="card">
-              <img src={image} alt="Avatar" />
-              <div className="container">
-                <h4><b>Jane Doe</b></h4> 
-                <p>Interior Designer</p> 
-              </div>
+              <img src={c5} alt="Avatar" />
+              <hr></hr>
+  <div className="container">
+    <a href="path/to/your/file.zip" download="myfile.zip" class="btn"><i class="fa fa-download"></i> Click here to Download</a>
+  </div> 
             </div>
+            <hr></hr>
+            <div className="card">
+              <img src={c5} alt="Avatar" />
+              <hr></hr>
+  <div className="container">
+    <a href="path/to/your/file.zip" download="myfile.zip" class="btn"><i class="fa fa-download"></i> Click here to Download</a>
+  </div> 
+            </div>
+            <hr></hr>
+            <div className="card">
+              <img src={c6} alt="Avatar" />
+              <hr></hr>
+  <div className="container">
+    <a href="path/to/your/file.zip" download="myfile.zip" class="btn"><i class="fa fa-download"></i> Click here to Download</a>
+  </div> 
+            </div>
+            <hr></hr>
+            <div className="card">
+              <img src={c6} alt="Avatar" />
+              <hr></hr>
+  <div className="container">
+    <a href="path/to/your/file.zip" download="myfile.zip" class="btn"><i class="fa fa-download"></i> Click here to Download</a>
+  </div> 
+            </div><hr></hr>
+            <div className="card">
+              <img src={c6} alt="Avatar" />
+              <hr></hr>
+  <div className="container">
+    <a href="path/to/your/file.zip" download="myfile.zip" class="btn"><i class="fa fa-download"></i> Click here to Download</a>
+  </div> 
+            </div>
+           
            
                 
               
